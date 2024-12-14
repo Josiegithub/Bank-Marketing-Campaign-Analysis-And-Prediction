@@ -1,0 +1,31 @@
+age,job,marital,education,default,balance,housing,loan,contact,day,month,duration,campaign,pdays,previous,poutcome,Prediction time,Model used
+0,Admin.,Married,Primary,Yes,0.0,Yes,Yes,Telephone,1,Jan,0,0,-1,0,Success,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,0.0,Yes,Yes,Telephone,1,Jan,0,0,-1,0,Success,0.0,0.0,0.0,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,0.0,Yes,Yes,Telephone,1,Jan,0,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,0.0,Yes,Yes,Telephone,1,Jan,0,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,1,Jan,0,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,1,may,0,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,may,0,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,may,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,may,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,may,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0,2024-12-12,Random Forest
+0,Admin.,Married,Primary,Yes,Yes,Yes,Telephone,may,0,-1,0,Success,0.0,0.0,0.0,0.0,mon,0.0
+0,Admin.,married,Primary,Yes,Yes,Yes,telephone,may,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,mon,0.0
+0,housemaid,married,basic school,yes,yes,yes,telephone,jan,1,0,1,success,0.0,0.0,2.4,3.0,mon,0.0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,mon,0.0
+0,housemaid,married,basic school,yes,no,no,cellular,jan,0,0,1,nonexistent,0.0,0.0,0.0,0.0,mon,0.0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,mon,0.0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,mon,0.0
+56,housemaid,married,basic school,yes,no,no,cellular,jan,mon,2,0,2,nonexistent,0.0,0.0,2.06,0.0,448
+58,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,2.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,retired,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+70,retired,married,unknown,yes,no,no,cellular,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+70,retired,married,unknown,yes,no,no,cellular,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
