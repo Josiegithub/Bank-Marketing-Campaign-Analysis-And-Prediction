@@ -60,8 +60,8 @@ def make_prediction(pipeline, encoder):
     # Add metadata for history
     df['Prediction time'] = datetime.date.today()
     df['selected_model'] = st.session_state['selected_model']
-    history_path = 'History/history.csv'
     
+    history_path = 'History\history.csv'
     # Append history, ensuring file exists
     df.to_csv(history_path, mode='a', header=not os.path.exists(history_path), index=False)
 
