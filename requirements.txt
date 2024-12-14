@@ -9,3 +9,4 @@ imblearn
 statsmodels
 openpyxl
 streamlit
+lightgbm
