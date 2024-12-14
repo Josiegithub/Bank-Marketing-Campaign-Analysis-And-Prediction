@@ -16,7 +16,7 @@ st.set_page_config(
 @st.cache_resource(show_spinner='Model loading')
 def load_lgbm_pipeline():
     # Update path to be relative or use environment-specific configuration
-    model_path = os.path.join('App','Model', 'lgbm_model_1.pk1')
+    model_path = os.path.join('App','Model', 'lgbm_model_1')
     # model_path = r'C:\Users\Josephine\Desktop\Career Accelerator\Bank-Marketing-Campaign-Analysis-And-Prediction\App\Model\lgbm_model_1.pk1'
     return joblib.load(model_path)
    
