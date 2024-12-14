@@ -29,3 +29,6 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 70,retired,married,unknown,yes,no,no,cellular,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
 0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
 0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0,2024-12-14,Light GBM
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0,2024-12-14,Light GBM
+0,housemaid,married,basic school,yes,no,no,telephone,jan,mon,0,0,-1,0,nonexistent,0.0,0.0,0.0,0.0,0,2024-12-14,Light GBM

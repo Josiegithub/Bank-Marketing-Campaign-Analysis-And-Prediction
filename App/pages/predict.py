@@ -16,8 +16,8 @@ st.set_page_config(
 @st.cache_resource(show_spinner='Model loading')
 def load_lgbm_pipeline():
     # Update path to be relative or use environment-specific configuration
-    # model_path = os.path.join('App','Model', 'random_forest_model.pk1')
-    model_path = r'C:\Users\Josephine\Desktop\Career Accelerator\Bank-Marketing-Campaign-Analysis-And-Prediction\App\Model\lgbm_model_1.pk1'
+    model_path = os.path.join('App','Model', 'lgbm_model_1.pk1')
+    # model_path = r'C:\Users\Josephine\Desktop\Career Accelerator\Bank-Marketing-Campaign-Analysis-And-Prediction\App\Model\lgbm_model_1.pk1'
     return joblib.load(model_path)
    
     
@@ -32,8 +32,8 @@ def select_model():
     pipeline = load_lgbm_pipeline()
     
     # Update path for encoder
-    # encoder_path = os.path.join('App', 'Model', 'LabelEncoder')
-    encoder_path = r'C:\Users\Josephine\Desktop\Career Accelerator\Bank-Marketing-Campaign-Analysis-And-Prediction\App\Model\LabelEncoder_1'
+    encoder_path = os.path.join('App', 'Model', 'LabelEncoder_1')
+    #encoder_path = r'C:\Users\Josephine\Desktop\Career Accelerator\Bank-Marketing-Campaign-Analysis-And-Prediction\App\Model\LabelEncoder_1'
     encoder = joblib.load(encoder_path)
     return pipeline, encoder
   
@@ -58,8 +58,8 @@ def make_prediction(pipeline, encoder):
     df = pd.DataFrame(data, columns=features)
 
     # Add metadata for history
-    # df['Prediction time'] = datetime.date.today()
-    # df['selected_model'] = st.session_state['selected_model']
+    df['Prediction time'] = datetime.date.today()
+    df['selected_model'] = st.session_state['selected_model']
     history_path = 'History/history.csv'
     
     # Append history, ensuring file exists
